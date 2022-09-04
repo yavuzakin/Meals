@@ -25,7 +25,6 @@ const CategoriesScreen = ({ navigation }) => {
       renderItem={renderCategoryItem}
       numColumns={2}
       key={2}
-      style={{ marginTop: 16 }}
     />
   );
 };
