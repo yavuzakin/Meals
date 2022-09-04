@@ -30,6 +30,7 @@ const MealDetailScreen = ({ route, navigation }) => {
         );
       },
     });
+    navigation.setOptions({ title: selectedMeal.title });
   }, [navigation, isLiked, headerButtonPressHandler]);
 
   return (
